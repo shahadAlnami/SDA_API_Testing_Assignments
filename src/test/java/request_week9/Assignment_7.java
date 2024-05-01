@@ -1,4 +1,4 @@
-package request;
+package request_week9;
 
 import base_urls.SwaggerBaseUrl;
 import io.restassured.http.ContentType;

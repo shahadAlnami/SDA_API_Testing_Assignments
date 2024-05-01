@@ -1,11 +1,10 @@
-package request;
+package request_week9;
 
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
 
 public class Assignment_3 {
    /*

@@ -1,4 +1,4 @@
-package request;
+package request_week9;
 
 import base_urls.SwaggerBaseUrl;
 import io.restassured.response.Response;
@@ -6,7 +6,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.List;
-import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 

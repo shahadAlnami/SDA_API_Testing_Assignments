@@ -1,4 +1,4 @@
-package request;
+package request_week9;
 
 import io.restassured.response.Response;
 import org.testng.annotations.Test;

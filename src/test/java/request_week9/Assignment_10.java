@@ -1,4 +1,4 @@
-package request;
+package request_week9;
 
 import base_urls.SwaggerBaseUrl;
 import expectedData.PetCategoryModel;
@@ -7,7 +7,6 @@ import expectedData.PetTagsModel;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -63,7 +62,6 @@ public class Assignment_10 extends SwaggerBaseUrl {
         //grtResponse.prettyPrint();
 
         // Do Assertions
-
         JsonPath jsonPath = getResponse.jsonPath();
         List<String> actualPhotoUrls = jsonPath.getList("photoUrls");
         List<String> actualTags = jsonPath.getList("tags.name");

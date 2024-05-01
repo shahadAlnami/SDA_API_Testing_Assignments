@@ -1,12 +1,10 @@
-package request;
+package request_week9;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.greaterThan;
 import static org.hamcrest.Matchers.hasSize;
 
 public class Assignment_1 {
