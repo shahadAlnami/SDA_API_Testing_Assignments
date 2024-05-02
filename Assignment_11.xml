@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/shahadalshareef/Desktop/SDA_API_Testing_Assignments/src/test/java/request_week10/Assignment_11">
+        <classes>
+            <class name="request_week10.Assignment_11.R01_CreateUser">
+            </class>
+            <class name="request_week10.Assignment_11.R02_GetUser">
+            </class>
+            <class name="request_week10.Assignment_11.R03_UpdateUser">
+            </class>
+            <class name="request_week10.Assignment_11.R04_DeleteUser">
+            </class>
+        </classes>
+    </test>
+</suite>

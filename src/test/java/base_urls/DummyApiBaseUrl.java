@@ -1,7 +1,6 @@
 package base_urls;
 
 import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.internal.RequestSpecificationImpl;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.BeforeMethod;
 
